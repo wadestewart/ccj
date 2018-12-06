@@ -1,0 +1,67 @@
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #BA55D3;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    /* z-index: 1; */
+}
+
+.flex-nav {
+    align-items: center;
+    display: flex;
+    font-family: 'Circular', Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 1.25rem 5rem;
+    text-align: left;
+}
+
+.flex-nav li {
+    margin: 0;
+}
+
+#logo {
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+#logo a svg {
+    fill: #fff;
+    height: 2.5rem;
+    width: auto;
+}
+
+#logo a:hover svg {
+    fill: #000;
+}
+
+.nav-scroll {
+    color: #fff;
+    flex: 1 1 auto;
+    margin: 1rem;
+    text-decoration: none;
+}
+
+.nav-scroll:hover {
+    color: 	rgb(56,56,56);
+}
+
+h1 {
+    margin: 0;
+    padding: 5rem 0 0 0;
+}
