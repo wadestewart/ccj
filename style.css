@@ -14,7 +14,7 @@ body {
 }
 
 .splash-page {
-    background: url('./splash.jpg');
+    background: url('./images/splash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +33,6 @@ body {
 .flex-nav {
     align-items: center;
     display: flex;
-    /* font-family: 'Circular', Helvetica, sans-serif; */
     list-style-type: none;
     margin: 0;
     padding: 1rem 5rem;
@@ -98,6 +97,12 @@ body {
     width: 100vw;
 }
 
-/* .about h2 {
-    font-family: 'Circular', Helvetica, sans-serif;
-} */
+.leadership {
+    background-color: #ededed;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+
