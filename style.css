@@ -22,7 +22,7 @@ body {
 }
 
 .navbar {
-    background-color: #BA55D3;
+    background-color: rgba(0,0,0, 0.5);
     height: 5rem;
     position: fixed;
     top: 0;
@@ -55,7 +55,7 @@ body {
 }
 
 #logo a:hover svg {
-    fill: #000;
+    fill: goldenrod;
 }
 
 .nav-scroll {
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-scroll:hover {
-    color: 	rgb(56,56,56);
+    color: 	goldenrod;
 }
 
 #nav-support {
