@@ -98,11 +98,39 @@ body {
 }
 
 .leadership {
+    align-items: center;
     background-color: #ededed;
     display: flex;
     flex-flow: row wrap;
     height: 100vh;
+    justify-content: center;
     width: 100vw;
 }
 
+.board-card {
+    border: solid #000 1px;
+    display: flex;
+    height: 10rem;
+    padding: 1rem;
+    width: 30rem;
+}
 
+.card-img {
+    margin: 0; 
+}
+
+.card-img img{
+    height: 8rem;
+    width: 8rem;
+}
+
+.card-text h2 {
+    margin: 0;
+    padding: 0 0 0 1rem;
+}
+
+.card-text p {
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0.25rem 0 0 1rem;
+}
