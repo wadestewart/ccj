@@ -102,8 +102,8 @@ body {
     background-color: #ededed;
     display: flex;
     flex-direction: column;
-    /* height: 100rem; */
     justify-content: center;
+    padding: 0 0 5rem 0;
     width: 100vw;
 }
 
@@ -154,4 +154,21 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.links figure a svg {
+    height: 4rem;
+    width: 4rem;
 }
