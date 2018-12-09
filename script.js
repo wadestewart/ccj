@@ -5,6 +5,7 @@ $('.nav-scroll').on('click', function(e) {
     }, 1000)
 })
 
+// this dropdown found here http://jsfiddle.net/davidThomas/YfjzP/
 $('#dropdown').hover(
     function() {
         $(this).find('ul').slideDown()
