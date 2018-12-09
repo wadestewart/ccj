@@ -1,5 +1,4 @@
 
-
 *,
 *::before,
 *::after {
@@ -48,8 +47,7 @@ body {
     text-align: left;
 }
 
-#logo a svg {
-    fill: #fff;
+#logo a img {
     height: 2.5rem;
     width: auto;
 }
@@ -58,32 +56,19 @@ body {
     fill: goldenrod;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
 .dropdown-content {
     background-color: #f1f1f1;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2);
     display: none;
     position: absolute;
     overflow: scroll;
-    width: 225%;
-    z-index: 1;
 }
 
 .dropdown-content li a {
     color: #000;
-    display: block;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content li:hover a {
-    background-color: #ddd;
+.dropdown-content li {
+    list-style-type: none;
 }
 
 .nav-scroll {
