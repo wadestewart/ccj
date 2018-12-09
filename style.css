@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-.splash-page {
+#splash-page {
     background: url('./images/splash.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -58,6 +58,34 @@ body {
     fill: goldenrod;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    background-color: #f1f1f1;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2);
+    display: none;
+    position: absolute;
+    overflow: scroll;
+    width: 225%;
+    z-index: 1;
+}
+
+.dropdown-content li a {
+    color: #000;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li:hover a {
+    background-color: #ddd;
+}
+
 .nav-scroll {
     color: #fff;
     flex: 1 1 auto;
@@ -87,7 +115,7 @@ body {
     color: 	goldenrod;
 }
 
-.about {
+#about {
     align-items: center;
     display: flex;
     flex-flow: column wrap;
@@ -111,7 +139,7 @@ body {
     margin: 7rem 0 0 0;
 }
 
-.directors {
+#directors {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -150,13 +178,13 @@ body {
     margin: 3rem 0 0 0;
 }
 
-.trustees {
+#trustees {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-.contact {
+#contact {
     align-items: center;
     display: flex;
     flex-direction: column;

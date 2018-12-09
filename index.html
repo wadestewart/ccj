@@ -7,16 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Council on Criminal Justice</title>
     <link href="./style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 <body>
     
-    <div class="splash-page">
+    <div id="splash-page">
 
         <nav class="navbar">
             <ul class="flex-nav">
                 <li id="logo">
-                    <a class="nav-scroll" href="#landing-page">
+                    <a class="nav-scroll" href="#splash-page">
                         <svg id="WadeLogo1_Image" data-name="WadeLogo1 Image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.071 75.889">
                             <title>WadeLogo</title>
                                 <path class="cls-1" d="M67.209,51.84a4.119,4.119,0,0,1-3.6.72C64.408,51.919,66.111,52.181,67.209,51.84Z"/>
@@ -29,7 +30,13 @@
                     </a>
                 </li>
                 <li><a class="nav-scroll" href="#about">ABOUT</a></li>
-                <li><a class="nav-scroll" href="#leadership">LEADERSHIP</a></li>
+                <div class="dropdown">
+                    <li class="nav-scroll">LEADERSHIP</li>
+                    <div class="dropdown-content">
+                        <li><a class="nav-scroll" href="#directors">BOARD OF DIRECTORS</a></li>
+                        <li><a class="nav-scroll" href="#trustees">BOARD OF TRUSTEES</a></li>
+                    </div>
+                </div>
                 <li><a class="nav-scroll" href="#contact">CONTACT</a></li>
                 <li id="nav-support"><a class="nav-scroll" href="https://moz.com/beginners-guide-to-seo" target='_blank'>SUPPORT US</a></li>
             </ul>
@@ -37,7 +44,7 @@
 
     </div>
 
-    <div class="about">
+    <div id="about">
 
         <h2>Who We Are</h2>
 
@@ -59,7 +66,7 @@
 
         <h1 class="directors-title">Board of Directors</h1>
 
-        <div class="directors">
+        <div id="directors">
 
             <div class="board-card">
     
@@ -155,7 +162,7 @@
 
         <h1 class="trustees-title">Board of Trustees</h1>
 
-        <div class="trustees">
+        <div id="trustees">
 
             <div class="board-card">
     
@@ -251,7 +258,7 @@
 
     </div>
 
-    <div class="contact">
+    <div id="contact">
 
         <h1>Contact the CCJ</h1>
 
